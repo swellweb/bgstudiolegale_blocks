@@ -55,4 +55,4 @@ registerBlockType("swell/infographic", {
 });
 /******/ })()
 ;
-//# sourceMappingURL=infoGraphic.4ff291d2.map
+//# sourceMappingURL=infoGraphic.960a8097.map

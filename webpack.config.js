@@ -1,7 +1,6 @@
 /* webpack.config.json */
 const path = require("path");
-const glob = require('glob');
-const VueLoaderPlugin = require("vue-loader/lib/plugin");
+const {VueLoaderPlugin} = require("vue-loader");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const external = require('./external')
@@ -21,11 +20,6 @@ module.exports = [
       clean:true
     },
     devtool:'source-map',
-    resolve: {
-      alias: {
-        vue: "vue/dist/vue.js",
-      },
-    },
     optimization: {
       splitChunks: {
         cacheGroups: {

@@ -75,4 +75,4 @@ registerPlugin('swellweb-sidebar', {
 });
 /******/ })()
 ;
-//# sourceMappingURL=sidebarPost.4ff291d2.map
+//# sourceMappingURL=sidebarPost.960a8097.map
